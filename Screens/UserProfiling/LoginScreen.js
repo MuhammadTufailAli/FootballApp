@@ -23,7 +23,8 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 //Import FontColor
 import {Font, Commonstyles} from '../Font/Font';
 
-const LoginScreen = ({navigation}) => {
+const LoginScreen = ({navigation, route}) => {
+  const user = route?.params?.user;
   const [notShowPassword, SetnotShowPassword] = useState(true);
   const {userdetails, setuserdetails} = useContext(CartProvider);
   return (

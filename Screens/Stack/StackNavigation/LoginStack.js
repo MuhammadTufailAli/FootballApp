@@ -19,6 +19,7 @@ function LoginStack() {
         screenOptions={{
           headerShown: false,
         }}>
+        <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="SignupScreen" component={SignupScreen} />
       </Stack.Navigator>

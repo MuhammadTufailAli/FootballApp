@@ -1,8 +1,8 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React, {useContext} from 'react';
 //importing Stacks
-import LoginStack from '../Stack/LoginStack';
-import DrawerStack from '../Stack/DrawerStack';
+import LoginStack from '../Stack/StackNavigation/LoginStack';
+import DrawerStack from '../Stack/Drawer/DrawerStack';
 //import Context Api
 import CartProvider from '../ContextApi/contextApi';
 
